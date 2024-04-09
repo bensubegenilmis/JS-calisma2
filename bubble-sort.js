@@ -1,7 +1,7 @@
 // Input: nums = [29, 10, 14, 37, 14]  ------> Output: [10, 14,14, 29, 37]
 
 const bubbleSort = (arr) => {
-    const n = arr.length
+    const n = arr.length;
     for (let i = 0; i < n; i++) {
         for (j = 0; j < n - i - 1; j++) {
             if (arr[j] > arr[j + 1]) {
